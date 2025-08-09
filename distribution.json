@@ -11,17 +11,17 @@
       "id": "FuryBlock-1.20.1",
       "name": "FuryBlock (Minecraft 1.20.1)",
       "description": "FuryBlock Running Minecraft 1.20.1 (Forge v47.4.0)",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/attachments/1396553010968268958/1397628788749111407/sample_0_7.jpg?ex=68982b7d&is=6896d9fd&hm=31afd13ac336ad23a9ff23be044b526e775c8afb3bb8537646ef1f632b9c9bac&",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "play.furyblock.com:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
