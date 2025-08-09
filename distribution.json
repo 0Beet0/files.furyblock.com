@@ -1,0 +1,988 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Furyblock-1.20.1",
+      "name": "Furyblock (Minecraft 1.20.1)",
+      "description": "Furyblock Running Minecraft 1.20.1 (Forge v47.4.0)",
+      "icon": "https://cdn.discordapp.com/attachments/1396553010968268958/1397628788749111407/sample_0_7.jpg?ex=68982b7d&is=6896d9fd&hm=31afd13ac336ad23a9ff23be044b526e775c8afb3bb8537646ef1f632b9c9bac&",
+      "version": "1.0.0",
+      "address": "play.furyblock.com:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "http://files.furyblock.com/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://files.furyblock.com/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "http://files.furyblock.com/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "http://files.furyblock.com/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "http://files.furyblock.com/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "http://files.furyblock.com/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "http://files.furyblock.com/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://files.furyblock.com/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://files.furyblock.com/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://files.furyblock.com/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://files.furyblock.com/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://files.furyblock.com/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://files.furyblock.com/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://files.furyblock.com/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://files.furyblock.com/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://files.furyblock.com/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://files.furyblock.com/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "http://files.furyblock.com/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://files.furyblock.com/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "http://files.furyblock.com/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.magistuarmory:magistuarmory:9.23@jar",
+          "name": "Epic Knights Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669952,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/[1.20.1-forge]-Epic-Knights-9.23.jar",
+            "MD5": "0d0be8819f47fb497cdd1c9871d3ac34"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:apotheosis:7.4.8@jar",
+          "name": "Apotheosis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2803994,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/Apotheosis-1.20.1-7.4.8.jar",
+            "MD5": "db02304c99d20ff51d4c2427d33c9044"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:attributeslib:1.3.7@jar",
+          "name": "Apothic Attributes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227511,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/ApothicAttributes-1.20.1-1.3.7.jar",
+            "MD5": "d4f8d1945416d5150cd67d27469b5ce9"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.31@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 594928,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.31-all.jar",
+            "MD5": "07fcc1940d31dd3e83d475118ff41a1e"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.4.2.25@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98124,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/BetterAdvancements-Forge-1.20.1-0.4.2.25.jar",
+            "MD5": "30f0ea1a5da2f22cb25d7794544b3c1f"
+          }
+        },
+        {
+          "id": "com.betterchunkloading:betterchunkloading:1.20.1-5.4@jar",
+          "name": "Betterchunkloading mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55968,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/betterchunkloading-1.20.1-5.4.jar",
+            "MD5": "0ec0d97c0f52b5b13762b293189487af"
+          }
+        },
+        {
+          "id": "com.jeremiahbl:bfcrmod:1.0.3@jar",
+          "name": "Better Forge Chat Reborn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186471,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/bfcrmod-1.20.1-3.0.0.jar",
+            "MD5": "8fb2cd8ca04120dfac71e4f5b98a2b78"
+          }
+        },
+        {
+          "id": "com.cerbon:bosses_of_mass_destruction:1.1.2@jar",
+          "name": "Bosses of Mass Destruction",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1753623,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/BOMD-Forge-1.20.1-1.1.2.jar",
+            "MD5": "ed5566c46bb5f980fd3beabf04f234d1"
+          }
+        },
+        {
+          "id": "com.cerbon:cerbons_api:1.1.0@jar",
+          "name": "Cerbons API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241148,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+            "MD5": "a8c22aef55560092ee068e04024da418"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.2@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185379,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
+            "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.connectivity:connectivity:1.20.1-7.1@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112550,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/connectivity-1.20.1-7.1.jar",
+            "MD5": "a4e4e9823e1df967bee1d62e6a505e8f"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.21@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245618,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.21.jar",
+            "MD5": "346a9e592558c1fde772b39c10be4cdf"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:14.0.57@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3267904,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/CraftTweaker-forge-1.20.1-14.0.57.jar",
+            "MD5": "dd01e03d08b681dff3f7c1991cbc82a6"
+          }
+        },
+        {
+          "id": "com.github.shinjoy991.createcustomcommand:create_custom_command:1.19.1v2.0@jar",
+          "name": "Create Custom Command",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22348,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/create_custom_command-1.19.1v2.0.jar",
+            "MD5": "580bec3bc5f908ea55b2cd96a02c6f40"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.6@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18764522,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/create-1.20.1-6.0.6.jar",
+            "MD5": "0bdb2789d1708a9de227c8ef05a830d9"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25983,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a"
+          }
+        },
+        {
+          "id": "lilypuree.decorative_blocks:decorative_blocks:4.1.3@jar",
+          "name": "Decorative Blocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 573928,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/decorative_blocks-forge-1.20.1-4.1.3.jar",
+            "MD5": "3ccc7e414c9de806448d94eef399cfd7"
+          }
+        },
+        {
+          "id": "net.mindoth:dreadsteel:1.1.9@jar",
+          "name": "Dreadsteel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 250011,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/dreadsteel-1.20.1-1.1.9.jar",
+            "MD5": "7e4c7413ae30c0d1469dd9ce9862ed7b"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:5.9.2@jar",
+          "name": "Easy NPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1612566,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/easy_npc-forge-1.20.1-5.9.2.jar",
+            "MD5": "69780cf62482602b3457bcf2e0656c9b"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "net.enderitemc:enderitemod:1.5.1@jar",
+          "name": "Enderite Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2569291,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/enderitemod-1.5.1-1.20.1-forge.jar",
+            "MD5": "0d2a4e3a607e64f89e6ccf60d1c72d0d"
+          }
+        },
+        {
+          "id": "generated.forgemod:factionsgui_v3_1.10:0.0.0@jar",
+          "name": "FactionsGUI_v3_1.10",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17475,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/FactionsGUI_v3_1.10.jar",
+            "MD5": "52018e326240db6ae96445514f3ef52e"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.9@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 791841,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/ftb-library-forge-2001.2.9%20(2).jar",
+            "MD5": "cdf8b270d3ee2c403a26206b10e0a749"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1012626,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.2.jar",
+            "MD5": "72e8d82f49593bc4ee1f8e4ecd351d3f"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21854126,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-5.jar",
+            "MD5": "cadbfab46fa1b02f9a9b09fa5cf86803"
+          }
+        },
+        {
+          "id": "toni.immersivearmorhud:immersivearmorhud:1.0.1@jar",
+          "name": "Immersive Armor HUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 583612,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/immersivearmorhud-forge-1.0.1-1.20.1.jar",
+            "MD5": "022a7532f2612a2cca91c02b1a36961b"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.26@jar",
+          "name": "Inventory HUD+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 238088,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/inventoryhud.forge.1.20.1-3.4.26.jar",
+            "MD5": "e1d1380697c2417cfaf6fdd42982a4d0"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.20.1-14.4.4@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 311290,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/ironchest-1.20.1-14.4.4.jar",
+            "MD5": "078fbc43b289995ca4a8cced59bbf0ef"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.1+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 550551,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.1.jar",
+            "MD5": "e36b4d172480009220be7eae12490943"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.112@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1385600,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.7.3@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35239406,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/mowziesmobs-1.7.3.jar",
+            "MD5": "ae03fbc5568adbf84e49806af92844cd"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0%20(1).jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84.1-FORGE@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 642711,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/Patchouli-1.20.1-84.1-FORGE%20(1).jar",
+            "MD5": "d5154cacf6859582eebd853bd59f5537"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "fr.lamdis:pog:1.1.1@jar",
+          "name": "Pickaxe of the Gods",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31414,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/POG-1.20.1-1.1.1.jar",
+            "MD5": "cba93b549a20384d30c4ea0c3773933d"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.32@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342204,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
+            "MD5": "3ca3da58d71c0b14241df38578ffdb22"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:embeddium_extra:0.5.4.4+mc1.20.1-build.131@jar",
+          "name": "Embeddium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 568608,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+            "MD5": "a96fb0a07b75eb07b200e8f9c0dfb9f4"
+          }
+        },
+        {
+          "id": "net.sixik.sdmbestiary:sdm_bestiary:1.2.0@jar",
+          "name": "SDM Bestiary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181792,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/sdm_bestiary-forge-1.2.0.jar",
+            "MD5": "c4bd5283519e715de709594a2c50d849"
+          }
+        },
+        {
+          "id": "net.sixik.sdmuilib:sdm_ui_lib:1.20.1-1.8.3@jar",
+          "name": "SDM UI Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 261631,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/sdm_ui_lib-forge-1.20.1-1.8.3%20(2).jar",
+            "MD5": "aa64ab55d3c993754c0103722d71a210"
+          }
+        },
+        {
+          "id": "generated.forgemod:sdmuilibrary:fabric-1.21-1.9.2@jar",
+          "name": "Sdmuilibrary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7850508,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/sdmuilibrary-fabric-1.21-1.9.2.jar",
+            "MD5": "e4ae65ba8996739b1ba0e9d1b864e677"
+          }
+        },
+        {
+          "id": "net.mindoth:shadowizardlib:1.20.1-1.2.5@jar",
+          "name": "ShadowizardLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32200,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/shadowizardlib-1.20.1-1.2.5.jar",
+            "MD5": "49582f5f4341bac3f5556ceabc41441c"
+          }
+        },
+        {
+          "id": "com.smoothchunk:smoothchunk:1.20.1-4.1@jar",
+          "name": "Smoothchunk mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14249,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/smoothchunk-1.20.1-4.1.jar",
+            "MD5": "66c9037777d4cafe6d5464f6eff5d8e2"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.23.19.1263@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 928607,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.23.19.1263.jar",
+            "MD5": "043925dccea828f03413b0942f564e5f"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.71.1022@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1332561,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.71.1022.jar",
+            "MD5": "abcd785dae54fd5c84df5382ed5d3c76"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:12.9.14@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 950686,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/StorageDrawers-1.20.1-12.9.14.jar",
+            "MD5": "4e094e3c00d716baab7a4cb233f01183"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.3.2508@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23332091,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "MD5": "0e1ca36ec2ca7e35059dea1600aa31ee"
+          }
+        },
+        {
+          "id": "toni.lib:txnilib:1.0.24@jar",
+          "name": "TxniLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3743339,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/txnilib-forge-1.0.24-1.20.1.jar",
+            "MD5": "31823d0999fda413af6dc226481e404a"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 435496,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
+            "MD5": "345d3ecdf94dffaa0e3ba55538c65f80"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.13@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 487241,
+            "url": "http://files.furyblock.com/servers/Furyblock-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.13.jar",
+            "MD5": "85a878879039056bd88d88d9d5ab967c"
+          }
+        }
+      ]
+    }
+  ]
+}
